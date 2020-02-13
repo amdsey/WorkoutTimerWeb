@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Workout Timer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/61108de0cd.js" crossorigin="anonymous"></script>
+  <!-- bootstrap jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <section id="title">
+
+
+      <div class="container-fluid navbar-div">
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">RunRestRepeat</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Title -->
+      <div class="title-container">
+        <div class="title-div">
+          <video width="720" controls>
+          <source src="https://youtu.be/8gA2zL5QWeU" type="video/mp4">
+
+          Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="row features-div">
+        <div class="col-lg-4 feature-box">
+          <i class="far fa-hand-point-up fa-4x feature-icon"></i>
+          <h3 class="feature-title">Intuitive Design</h3>
+          <p>Simple and easy to use. everything is one touch away.</p>
+        </div>
+
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-bullhorn fa-4x feature-icon"></i>
+          <h3 class="feature-title">Customizable</h3>
+          <p>Customizable alerts, change when and how your timer beeps.</p>
+        </div>
+
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-share-alt fa-4x feature-icon"></i>
+          <h3 class="feature-title">Save & Share</h3>
+          <p>Create your own timesets, save them and share them across your devices.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Call for Action Section -->
+    <section id="cta">
+      <div class="cta-container container-fluid">
+
+        <div class="row">
+          <div class="cta-div col-lg-6">
+            <h1 class="cta-heading">Transfom the way you workout</h1>
+            <button class="btn btn-dark btn-lg download-btn" type="button" hidden><i class="fab fa-apple"></i> Download</button>
+            <a href="https://play.google.com/store/apps/details?id=com.sini.exercisetimer">
+              <button class="btn btn-outline-dark btn-lg download-btn" type="button"><i class="fab fa-google-play"></i> Download</button>
+            </a>
+          </div>
+          <div class="cta-div col-lg-6">
+            <div id="images-carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/phone2.png" alt="phone-image">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/phone.png" alt="phone-image">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#images-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#images-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- footer Section -->
+    <div id="footer" class="footer">
+      <i class="footer-icon fab fa-twitter"></i>
+      <i class="footer-icon fab fa-facebook-f"></i>
+      <i class="footer-icon fab fa-instagram"></i>
+      <i class="footer-icon fas fa-envelope"></i>
+      <p class="copyright">© Copyright 2020 WorkoutTimer</p>
+    </div>
+
+  </body>
+</html>
